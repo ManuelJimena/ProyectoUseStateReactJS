@@ -1,87 +1,76 @@
 export const CV = {
   hero: {
-    name: "Anthony",
-    surname: "Edward Stark",
-    city: "Avengers Tower / New York",
-    email: "tony@starkindustries.com",
-    birthDate: "29/05/1970",
-    image: "https://i.imgur.com/ZQAkED3.png",
-    gitHub: "https://github.com/tonystark",
+    name: "Steve",
+    surname: " Rogers",
+    city: "Brooklyn / New York",
+    email: "steve.rogers@example.com",
+    birthDate: "04/07/1918",
+    image: "https://res.cloudinary.com/dhjmt9vvq/image/upload/v1695056877/shubham-randive-cap_j54qn0.jpg",
+    gitHub: "github.com/captainam",
     aboutMe: [
       {
-        info: "🤖 My armor, it was never a distraction or a hobby, it was a cocoon. I am Iron Man.",
+        info: "⭐️ Leader of the Avengers and a beacon of courage.",
       },
       {
-        info: "🔩 CEO of Stark Industries.",
+        info: "🛡️ Peak human, master tactician, and a symbol of resilience.",
       },
       {
-        info: "🕶 Genius, billionaire, playboy, philanthropist.",
+        info: "🦸‍♂️ I do have a responsibility to stand against tyranny and injustice, but I have a greater responsibility to inspire others to join the fight for a better world in any way they can.",
       },
       {
-        info: "🦾 I do have a responsibility to keep my inventions from evil hands – but I have a greater responsibility to oppose that evil any way I can.",
+        info: "💪 I can do this all day.",
       },
     ],
   },
   education: [
     {
-      name: "Master in physics",
-      date: "1985",
-      where: "MIT",
-    },
-    {
-      name: "Aeronautical Engineering",
-      date: "1995",
-      where: "ATI Vaughn College",
-    },
-    {
-      name: "Weapons Engineer",
-      date: "1998",
-      where: "Firearm Collegue, Queens",
+      name: "High School Diploma",
+      date: "1938 - 1941",
+      where: "Brooklyn Technical High School",
     },
   ],
   experience: [
     {
-      name: "Consultant",
-      date: "01/01/2013 – Nowadays",
-      where: "S.H.I.E.L.D",
+      name: "The Avengers",
+      date: "01/05/2012 – New York, NY",
+      where: "Superhero",
       description:
-        "It builds the helicarriers used by S.H.I.E.L.D. It produces the Quinjets used by the Avengers.",
+        "As a founding member, led the Avengers in defending the Earth from numerous extraterrestrial and superhuman threats.",
     },
     {
-      name: "CEO",
-      date: "01/01/2000 – 28/02/2012",
-      where: "Stark Industries",
+      name: "U.S. Army",
+      date: "15/03/1942 – 28/02/1945",
+      where: "Captain",
       description:
-        "Manage the company, which is a multi-billion dollar multinational corporation that develops and manufactures advanced weapon and defense technologies. The company manufactures the armor worn by Iron Man and War Machine.",
+        "Enlisted during World War II and became a super-soldier through the use of the Super-Soldier Serum.",
     },
   ],
   languages: {
-    language: "English",
-    wrlevel: "Native",
-    splevel: "Native",
+    language: "English, German and Russian",
   },
   habilities: [
-    "Robotics",
-    "Robot Programming",
-    "Physics",
-    "Weaponery",
-    "Engineer",
-    "Money",
-    "Dating",
-    "Saving the world",
+    "💪 Superhuman Strength",
+    "🏃‍♂️ Superhuman Agility",
+    "🏋️‍♂️ Superhuman Endurance",
+    "🧠 Tactical Genius",
+    "🌟 Leadership",
+    "🛡️ Shield Mastery",
+    "🔫 Advanced Combat Training",
+    "⚖️ Unwavering Commitment to Justice ",
   ],
   volunteer: [
     {
-      name: "September Foundation",
-      where: "MIT",
+      name: "🏫 Support for Veterans and War Heroes",
+
       description:
-        "The September Foundation is a program by Tony Stark to fund schools and young prodigies in their education. The foundation was named by Stark after a lyric from The Fantasticks song, 'Try to Remember,' which he heard his mother sing and play on the piano before her death.",
+        "Captain America has been involved in supporting veterans and war heroes, given his own history as a World War II veteran. He often participates in events and programs aimed at honoring their service and sacrifices.",
     },
     {
-      name: "Damage Control",
-      where: "U.S.A.",
+
+      name: "🎗️ Sentinel of Liberty Scholarship",
+
       description:
-        "The United States Department of Damage Control, occasionally known as the DODC, is a department of the United States of America. Initially a subsidiary of S.H.I.E.L.D., Damage Control was an organization specializing in post-battle clean-up. Following the Battle of New York, Damage Control was made into an executive branch of the United States government, and in a joint venture with Stark Industries, was tasked with acquiring alien and other dangerous artifacts along with cleaning up damages caused by enhanced individuals.",
+        "Inspired by his own journey, Captain America initiated the Sentinel of Liberty Scholarship, which provides financial assistance to young people pursuing their education and goals.",
     },
   ],
 };

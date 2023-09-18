@@ -9,21 +9,21 @@ import More from './Commponents/More/More';
 
 const { hero, education, experience, languages, habilities, volunteer } = CV;
 
-const App = () => {
+function App() {
   const [showEducation, setShowEducation] = useState(true);
   return (
     <div className="App">
       <div>
         <Hero hero={hero} />
-        <div className="divider">
+
           <span></span>
           <span>About me</span>
           <span></span>
-        </div>
+
         <About hero={hero} />
       </div>
       <nav>
-        <div className="divider">
+ 
           <span></span>
           <span>
             <button
@@ -40,7 +40,7 @@ const App = () => {
             </button>
           </span>
           <span></span>
-        </div>
+
       </nav>
       <div>
         {showEducation ? (
