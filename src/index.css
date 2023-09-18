@@ -7,4 +7,38 @@
 body {
   font-family: 'Inclusive Sans', sans-serif;
   background-color: black;
+  padding: 2% 10%;
+}
+
+.card {
+  padding: 20px 20px;
+  margin: auto 20%;
+  text-align: center;
+  border-radius: 12px;
+  background-color: black;
+  border: 1px solid rgba(240, 248, 255, 0.241);
+  line-height: 2;
+}
+
+h1 {
+  font-size: 3.5rem;
+    background: linear-gradient(to right, #9845e8 0%, #33d2ff 50%, #dd5789 100%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+h2 {
+  color: white;
+  margin: 2% 0;
+  border-bottom: 1px solid #33d2ff;
+}
+
+p {
+  color: white;
+}
+
+a {
+  color: white;
+  text-decoration: none;
 }

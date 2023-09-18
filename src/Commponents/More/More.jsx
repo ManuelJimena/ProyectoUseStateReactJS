@@ -4,17 +4,17 @@ import "./More.css";
 const More = ({ languages, habilities, volunteer }) => {
   return (
     <div className="more">
-        <span>Languages</span>
+        <h2>Languages</h2>
       <div className="card"> 
         <p>{languages.language}</p>
       </div>
-        <span>Skills</span>
+        <h2>Skills</h2>
       <div className="habilities card">
         {habilities.map((txt) => (
           <p>{txt}</p>
         ))}
       </div>
-        <span>Volunteer</span>
+        <h2>Volunteer</h2>
       <div className="volunteer card">
         {volunteer.map((item) => {
           return (

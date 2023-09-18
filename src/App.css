@@ -1,93 +1,22 @@
-.letter {
-  background: #fff;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
-  margin: 26px auto 0;
-  max-width: 550px;
-  min-height: 300px;
-  padding: 24px;
-  position: relative;
-  width: 80%;
+.btn {
+  display: flex;
+  justify-content: center;
+  margin: 2% auto;
+  gap: 20px;
 }
-.letter:before,
-.letter:after {
-  content: "";
-  height: 98%;
-  position: absolute;
-  width: 100%;
-  z-index: -1;
-}
-.letter:before {
-  background: #fafafa;
-  box-shadow: 0 0 8px rgba(0, 0, 0, 0.2);
-  left: -5px;
-  top: 4px;
-  transform: rotate(-2.5deg);
-}
-.letter:after {
-  background: #f6f6f6;
-  box-shadow: 0 0 3px rgba(0, 0, 0, 0.2);
-  right: -3px;
-  top: 1px;
-  transform: rotate(1.4deg);
-}
-
-
 
 .custom-btn {
-  width: 130px;
-  height: 40px;
-  padding: 10px 25px;
-  border: 2px solid #000;
-  font-weight: bold;
-  font-size: 16px;
-  background-color: rgba(240, 248, 255, 0.241);
+  background-image: linear-gradient(to right, #9845e8 0%, #33d2ff 50%, #dd5789 100%);
+  color: black;
+  border-radius: 5px;
   cursor: pointer;
-  transition: all 0.3s ease;
-  position: relative;
-  display: inline-block;
-  padding-bottom: 10px;
-  margin-left: 10px;
-  margin-right: 10px;
-}
-.btn-4 {
-  position: relative;
-  color: #000;
-  z-index: 2;
-  line-height: 30px;
-  padding: 0;
-}
-.btn-4:hover {
-  border: none;
-}
-.btn-4:before,
-.btn-4:after {
-  position: absolute;
-  content: "";
-  width: 0%;
-  height: 0%;
-  border: 2px solid;
-  z-index: -1;
-  transition: all 0.3s ease;
-}
-.btn-4:before {
-  top: 0;
-  left: 0;
-  border-bottom-color: transparent;
-  border-right-color: transparent;
-  border-top-color: #000;
-  border-left-color: #000;
-}
-.btn-4:after {
-  bottom: 0;
-  right: 0;
-  border-top-color: transparent;
-  border-left-color: transparent;
-  border-bottom-color: #000;
-  border-right-color: #000;
-}
-.btn-4:hover:before,
-.btn-4:hover:after {
-  border-color: #000;
-  height: 100%;
-  width: 100%;
-}
+  font-size: 16px;
+  font-weight: bold;
+  padding: 10px 20px;
+  gap: 10px;
+  
+  &:hover {
+  color: #fff;
+
+   }
+ }

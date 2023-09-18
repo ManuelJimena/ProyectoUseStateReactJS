@@ -6,9 +6,9 @@ const Hero = ({ hero }) => {
     <div className="hero">
       <img src={hero.image} alt={hero.name} />
       <div className="card">
-      <h2>
+      <h1>
         {hero.name} {hero.surname} {hero.adress}
-      </h2>
+      </h1>
         <p>🗺️{hero.city} </p>
         <p>🗓️{hero.birthDate}</p>
         <p>
