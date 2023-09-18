@@ -8,4 +8,8 @@
   .name{
       font-weight: bold;
   }
+
+  .experience > .card{
+    min-width: 450px;
+}
  

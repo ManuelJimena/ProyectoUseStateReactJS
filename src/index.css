@@ -7,12 +7,13 @@
 body {
   font-family: 'Inclusive Sans', sans-serif;
   background-color: black;
-  padding: 2% 10%;
+  margin: 2% 10%;
+ 
 }
 
 .card {
   padding: 20px 20px;
-  margin: auto 20%;
+  margin: auto 19%;
   text-align: center;
   border-radius: 12px;
   background-color: black;
@@ -40,5 +41,6 @@ p {
 
 a {
   color: white;
-  text-decoration: none;
+  text-decoration: underline;
 }
+

@@ -18,7 +18,7 @@ export const CV = {
         info: "🦸‍♂️ I do have a responsibility to stand against tyranny and injustice, but I have a greater responsibility to inspire others to join the fight for a better world in any way they can.",
       },
       {
-        info: "💪 I can do this all day.",
+        info: ' 💪 " I can do this all day. " ',
       },
     ],
   },
@@ -61,14 +61,13 @@ export const CV = {
   volunteer: [
     {
       name: "🏫 Support for Veterans and War Heroes",
-
+      id: 4561,
       description:
         "Captain America has been involved in supporting veterans and war heroes, given his own history as a World War II veteran. He often participates in events and programs aimed at honoring their service and sacrifices.",
     },
     {
-
       name: "🎗️ Sentinel of Liberty Scholarship",
-
+      id: 4562,
       description:
         "Inspired by his own journey, Captain America initiated the Sentinel of Liberty Scholarship, which provides financial assistance to young people pursuing their education and goals.",
     },

@@ -4,6 +4,7 @@
     align-items: center;
     text-align: center;
   }
-  .name{
-    font-weight: bold;
+
+  .education > .card{
+    width: 450px;
 }

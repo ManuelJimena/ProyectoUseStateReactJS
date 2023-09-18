@@ -4,3 +4,7 @@
   align-items: center;
   text-align: center;
 }
+
+.about > .card{
+  width: 450px;
+}

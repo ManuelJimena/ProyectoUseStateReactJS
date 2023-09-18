@@ -3,8 +3,8 @@ import "./Education.css";
 
 const Education = ({ education }) => {
   return (
-    <div>
-      <div className="education card">
+    <div className="education">
+    <div className="card">
         {education.map((item) => {
           return (
             <div key={JSON.stringify(item)}>

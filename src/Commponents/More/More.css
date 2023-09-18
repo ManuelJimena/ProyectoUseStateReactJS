@@ -9,3 +9,7 @@
 .volunteer{
     text-align: center;
 }
+
+.more > .card{
+    min-width: 450px;
+}
