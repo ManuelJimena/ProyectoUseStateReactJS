@@ -1,4 +1,3 @@
-import React from "react";
 import "./More.css";
 
 const More = ({ languages, habilities, volunteer }) => {
@@ -10,8 +9,8 @@ const More = ({ languages, habilities, volunteer }) => {
       </div>
       <h2>Skills</h2>
       <div className="habilities card">
-        {habilities.map((txt) => (
-          <p key={txt}>{txt}</p>
+        {habilities.map((hability) => (
+          <p key={hability}>{hability}</p>
         ))}
       </div>
       <h2>Volunteer</h2>

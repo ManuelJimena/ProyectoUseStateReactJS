@@ -12,7 +12,7 @@ const { hero, education, experience, languages, habilities, volunteer } = CV;
 function App() {
   const [showEducation, setShowEducation] = useState(true);
   return (
-    <div className="App">
+    <div>
       <div className='about'>
         <Hero hero={hero} />
           <h2>About me</h2>
